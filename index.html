@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Welcome. Please log in!!!</h1>
+    <form>
+    <label for="fname">Username:</label><input type="text" id="fname" name="fname">
+    <br><br>
+    <label for="password">Password:</label><input type="password" id="password" name="password">
+    <br><br>
+    <p id="log"></p>
+
+    <button onclick="login(); return false;">Submit</button>
+    <br>
+    <br>
+    <br>
+    <a href="switch.html">Weather</a>
+
+    </form>
+
+    <script>
+        function login() {
+            var username = document.getElementById("fname").value;
+            var password = document.getElementById("password").value;
+
+            var User = "Josh";
+            var Pass = "2002";
+
+            if (username === User && password === Pass) {
+                document.getElementById("log").innerHTML = "Correct! Logging you in Queen......";
+            } else {
+                document.getElementById("log").innerHTML = "Incorrect! Try Again.....";
+            }
+        }
+    </script>
+</body>
+</html>
+
