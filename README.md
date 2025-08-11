@@ -55,4 +55,8 @@ To run the app locally:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Mihle14/LoginForm.git
-
+   ```
+   
+2. **Open the Website**
+   
+   🌐 Demo: https://mihle14.github.io/LoginForm/
