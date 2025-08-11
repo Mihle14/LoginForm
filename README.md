@@ -50,7 +50,7 @@ The design is handled using `style.css` and includes:
 
 ## 📁 Getting Started
 
-To run the app locally:
+To run the app:
 
 1. **Clone the repository**
    ```bash
